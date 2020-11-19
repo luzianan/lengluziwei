@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+<title>Shanghai International</title>
+<meta name="keywords" content="Shanghai International">
+<meta name="description" content="Shanghai International">
+<script type="text/javascript" src="statics/web/js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="statics/web/js/jquery.animate-colors-min.js"></script>
+
+<!-- 搜索页面样式-->
+<link href="statics/css/search.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="statics/js/cookie.js"></script>
+<script type="text/javascript" src="statics/js/search_common.js"></script>
+
+<script type="text/javascript" src="statics/web/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="statics/web/js/jQuery-easing.js"></script>
+<script type="text/javascript" src="statics/web/js/swiper/slick.js"></script>
+<link rel="stylesheet" type="text/css" href="statics/web/js/swiper/slick.css"/>
+<script type="text/javascript" src="https://www.sigchina.com/statics/web/js/init_en.js"></script>
+
+<link href="statics/web/css/wroo.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+    <!--头部-->
+    <!--头部-->
+	<div class="row topfr">
+				<div class="wrap_c">
+			<div class="fl"><a href="https://www.sigchina.com/index.php?siteid=2"><img src="statics/web/images/logo.png" /></a></div>
+			<div class="fr">
+				<div class="topfr_c">
+					<div class="top_fr_t">
+						<a href="javascript:void(0);" class="a2 meun"></a>
+						<a href="javascript:void(0);" class="wrap_a1 a1"></a>
+						<a href="javascript:;" class="on">EN</a><i>&nbsp;</i>
+						<a href="https://www.sigchina.com/index.php?r=content&amp;siteid=1" >中文</a>
+					</div>
+					<div class="top_fr_c">
+						<ul>
+							<li class="last"></li>
+							<li class="li1">
+								<form name="search" type="get" id="search_from" action="index.php.html">
+									<div class="searchfr">
+										<input type="hidden" name="m" value="search"/>
+										<input type="hidden" name="c" value="index"/>
+										<input type="hidden" name="a" value="init"/>
+										<input type="hidden" name="typeid" value="1" id="typeid"/>
+										<input type="hidden" name="siteid" value="2" id="siteid"/>
+										<input type="text" name="q" id="in_ser_txt1" value="" class="in_ser_txt"  />
+										<input type="button" class="in_ser_btn" id="in_ser_btn1" />
+									</div>
+								</form>
+								<a href="javascript:void(0);" class="a1"></a>
+							</li>
+														<li >
+							<a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=82">CSR</a>
+							<div class="toprc_sub">
+								<div class="toprc_sub_c">
+																											<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=83"><b></b>CSR Values</a></p>
+																		<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=84"><b></b>Donations</a></p>
+																										</div>
+							</div>
+							</li>
+														<li >
+							<a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=100">INFO DISCLOSURE</a>
+							<div class="toprc_sub">
+								<div class="toprc_sub_c">
+																											<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=101"><b></b>SIG Briefing</a></p>
+																		<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=102"><b></b>CSR Report</a></p>
+																										</div>
+							</div>
+							</li>
+														<li >
+							<a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=79">PRESS</a>
+							<div class="toprc_sub">
+								<div class="toprc_sub_c">
+																											<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=80"><b></b>SIG News</a></p>
+																										</div>
+							</div>
+							</li>
+														<li >
+							<a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=68">BUSINESS SCOPE</a>
+							<div class="toprc_sub">
+								<div class="toprc_sub_c">
+																											<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=69"><b></b>Capital Operation</a></p>
+																		<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=70"><b></b>Investment Management</a></p>
+																		<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=78"><b></b>Financial Factor Market</a></p>
+																										</div>
+							</div>
+							</li>
+														<li >
+							<a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=56">ABOUT SIG</a>
+							<div class="toprc_sub">
+								<div class="toprc_sub_c">
+																											<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=57"><b></b>SIG Profile</a></p>
+																		<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=58"><b></b>Chairman`s Message</a></p>
+																		<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=59"><b></b>Top Management</a></p>
+																		<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=61"><b></b>Organization  Chart</a></p>
+																		<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=62"><b></b>Milestones</a></p>
+																		<p><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=63"><b></b>SIG Image</a></p>
+																										</div>
+							</div>
+							</li>
+														<li  ><a href="https://www.sigchina.com/index.php?siteid=2">HOME</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+			</div>
+	<!--子菜单-->
+		<div class="submeun">
+		<div class="submeun_bg"></div>
+		<ul>
+						<li>
+				<div class="sub_menu_t"><a href="javascript:void(0);">ABOUT SIG</a></div>
+				<div class="sub_menu_c">
+															<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=57">SIG Profile</a></div>
+					</div>
+										<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=58">Chairman`s Message</a></div>
+					</div>
+										<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=59">Top Management</a></div>
+					</div>
+										<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=61">Organization  Chart</a></div>
+					</div>
+										<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=62">Milestones</a></div>
+					</div>
+										<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=63">SIG Image</a></div>
+					</div>
+														</div>
+			</li>
+						<li>
+				<div class="sub_menu_t"><a href="javascript:void(0);">BUSINESS SCOPE</a></div>
+				<div class="sub_menu_c">
+															<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=69">Capital Operation</a></div>
+					</div>
+										<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=70">Investment Management</a></div>
+					</div>
+										<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=78">Financial Factor Market</a></div>
+					</div>
+														</div>
+			</li>
+						<li>
+				<div class="sub_menu_t"><a href="javascript:void(0);">PRESS</a></div>
+				<div class="sub_menu_c">
+															<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=80">SIG News</a></div>
+					</div>
+														</div>
+			</li>
+						<li>
+				<div class="sub_menu_t"><a href="javascript:void(0);">INFO DISCLOSURE</a></div>
+				<div class="sub_menu_c">
+															<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=101">SIG Briefing</a></div>
+					</div>
+										<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=102">CSR Report</a></div>
+					</div>
+														</div>
+			</li>
+						<li>
+				<div class="sub_menu_t"><a href="javascript:void(0);">CSR</a></div>
+				<div class="sub_menu_c">
+															<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=83">CSR Values</a></div>
+					</div>
+										<div class="sub_menuc_li">
+						<div class="sub_menuc_li_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=84">Donations</a></div>
+					</div>
+														</div>
+			</li>
+					</ul>
+	</div>
+	
+	<div class="searchfr1">
+		<form name="search" type="get" id="search_from_mobile" action="index.php.html">
+			<div class="wrap_c">
+				<input type="hidden" name="m" value="search"/>
+				<input type="hidden" name="c" value="index"/>
+				<input type="hidden" name="a" value="init"/>
+				<input type="hidden" name="typeid" value="1" id="typeid"/>
+				<input type="hidden" name="siteid" value="2" id="siteid"/>
+				<input type="text" name="q" id="in_ser_txt" value="" class="in_ser_txt"  />
+				<input type="button" class="in_ser_btn" />
+			</div>
+		</form>
+	</div>
+	<!--end头部-->
+<div class="top_empty" style="height: 117px;"></div>    <!--end头部-->
+
+    <!--内容-->
+
+    <div class="row banner">
+        <div class="banner_slide" id="banner_slide">
+                                                            <div class="swiper-slide">
+                <img src="uploadfile/2016/1014/20161014034940300.jpg" />
+                <a href="http://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=56" class="a1" target="_blank">
+                    <img src="https://www.sigchina.com/uploadfile/2018/0130/20180130050518317.png" />
+                    <span>More&nbsp;&gt;</span>
+                </a>
+            </div>
+                                    <div class="swiper-slide">
+                <img src="https://www.sigchina.com/uploadfile/2016/1017/20161017012456283.jpg" />
+                <a href="http://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=68" class="a2" target="_blank">
+                    <img src="https://www.sigchina.com/uploadfile/2017/1225/20171225044415931.png" />
+                    <span>More&nbsp;&gt;</span>
+                </a>
+            </div>
+                                    <div class="swiper-slide">
+                <img src="uploadfile/2016/0819/20160819013946730.jpg" />
+                <a href="http://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=100" class="a3" target="_blank">
+                    <img src="https://www.sigchina.com/uploadfile/2017/1225/20171225115942466.png" />
+                    <span>More&nbsp;&gt;</span>
+                </a>
+            </div>
+                                </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="statics/web/js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="statics/web/js/jQuery-easing.js"></script>
+    <script type="text/javascript">
+        TouchSlide({
+            slideCell: "#banner_slide",
+            titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+            mainCell: ".bd ul",
+            effect: "leftLoop",
+            delayTime: 800,
+            interTime: 6000,
+            autoPage: true, //自动分页
+            autoPlay: true, //自动播放
+            mouseoverout: true,
+            startFun: function (i, c) {
+                var pagew = $(document).width();
+                if (pagew > 1200) {
+                    if (i == 0) {
+                        $(".banner a.a1").stop(true, true).animate({ "left": "50%" }, 2000, "easeOutCubic");
+                        $(".banner a.a2").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a2").css({ "opacity": "1", "left": "-40%" });
+                        });
+                        $(".banner a.a3").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a3").css({ "opacity": "1", "left": "-40%" });
+                        });
+                    }
+                    else if (i == 1) {
+                        $(".banner a.a2").stop(true, true).animate({ "left": "50%" }, 1000, "easeOutCubic");
+                        $(".banner a.a1").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a1").css({ "opacity": "1", "left": "-40%" });
+                        });
+                        $(".banner a.a3").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a3").css({ "opacity": "1", "left": "-40%" });
+                        });
+                    }
+                    else if (i == 2) {
+                        $(".banner a.a3").stop(true, true).animate({ "left": "50%" }, 1000, "easeOutCubic");
+                        $(".banner a.a2").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a2").css({ "opacity": "1", "left": "-40%" });
+                        });
+                        $(".banner a.a1").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a1").css({ "opacity": "1", "left": "-40%" });
+                        });
+                    }
+                }
+                else if (pagew > 992) {
+                    if (i == 0) {
+                        $(".banner a.a1").stop(true, true).animate({ "left": "50%" }, 2000, "easeOutCubic");
+                        $(".banner a.a2").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a2").css({ "opacity": "1", "left": "-60%" });
+                        });
+                        $(".banner a.a3").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a3").css({ "opacity": "1", "left": "-60%" });
+                        });
+                    }
+                    else if (i == 1) {
+                        $(".banner a.a2").stop(true, true).animate({ "left": "50%" }, 1000, "easeOutCubic");
+                        $(".banner a.a1").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a1").css({ "opacity": "1", "left": "-60%" });
+                        });
+                        $(".banner a.a3").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a3").css({ "opacity": "1", "left": "-40%" });
+                        });
+                    }
+                    else if (i == 2) {
+                        $(".banner a.a3").stop(true, true).animate({ "left": "50%" }, 1000, "easeOutCubic");
+                        $(".banner a.a2").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a2").css({ "opacity": "1", "left": "-60%" });
+                        });
+                        $(".banner a.a1").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a1").css({ "opacity": "1", "left": "-60%" });
+                        });
+                    }
+                }
+                else if (pagew > 768) {
+                    if (i == 0) {
+                        $(".banner a.a1").stop(true, true).animate({ "left": "50%" }, 2000, "easeOutCubic");
+                        $(".banner a.a2").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a2").css({ "opacity": "1", "left": "-60%" });
+                        });
+                        $(".banner a.a3").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a3").css({ "opacity": "1", "left": "-60%" });
+                        });
+                    }
+                    else if (i == 1) {
+                        $(".banner a.a2").stop(true, true).animate({ "left": "50%" }, 1000, "easeOutCubic");
+                        $(".banner a.a1").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a1").css({ "opacity": "1", "left": "-60%" });
+                        });
+                        $(".banner a.a3").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a3").css({ "opacity": "1", "left": "-40%" });
+                        });
+                    }
+                    else if (i == 2) {
+                        $(".banner a.a3").stop(true, true).animate({ "left": "50%" }, 1000, "easeOutCubic");
+                        $(".banner a.a2").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a2").css({ "opacity": "1", "left": "-60%" });
+                        });
+                        $(".banner a.a1").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a1").css({ "opacity": "1", "left": "-60%" });
+                        });
+                    }
+                }
+                else if (pagew >= 320) {
+                    if (i == 0) {
+                        $(".banner a.a1").stop(true, true).animate({ "left": "50%" }, 2000, "easeOutCubic");
+                        $(".banner a.a2").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a2").css({ "opacity": "1", "left": "-40%" });
+                        });
+                        $(".banner a.a3").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a3").css({ "opacity": "1", "left": "-40%" });
+                        });
+                    }
+                    else if (i == 1) {
+                        $(".banner a.a2").stop(true, true).animate({ "left": "50%" }, 1000, "easeOutCubic");
+                        $(".banner a.a1").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a1").css({ "opacity": "1", "left": "-40%" });
+                        });
+                        $(".banner a.a3").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a3").css({ "opacity": "1", "left": "-40%" });
+                        });
+                    }
+                    else if (i == 2) {
+                        $(".banner a.a3").stop(true, true).animate({ "left": "50%" }, 1000, "easeOutCubic");
+                        $(".banner a.a2").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a2").css({ "opacity": "1", "left": "-40%" });
+                        });
+                        $(".banner a.a1").stop(true, true).animate({ "opacity": "0", "left": "100%" }, 2000, function () {
+                            $(".banner a.a1").css({ "opacity": "1", "left": "-40%" });
+                        });
+                    }
+                }
+            }
+        });
+    </script>
+
+    <div class="row in_nr1">
+        <div class="in_nr1_t">
+            <div class="wrap_c">
+                <ul>
+                    <li><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=69"><em><img src="statics/web/images/in_01.png" class="img0"/><img src="statics/web/images/in_01_on.png" class="img1" /></em><span>Capital Operation</span></a></li>
+                    <li><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=70"><em><img src="statics/web/images/in_02.png" class="img0"/><img src="statics/web/images/in_02_on.png" class="img1" /></em><span>Investment Management</span></a></li>
+                    <li><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=78"><em><img src="statics/web/images/in_03.png" class="img0"/><img src="statics/web/images/in_03_on.png" class="img1" /></em><span>Financial Factor Market</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="in_nr1_c">
+            <a href="javascript:void(0);" class="on">SIG News</a>
+            <a href="javascript:void(0);" style="display: none;">Media Focus</a>
+        </div>
+    </div>
+
+    <div class="row in_nr2">
+        <div class="wrap_c">
+            <div class="in_nr2_c_00">
+                <div class="in_nr2_c_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=80">More ></a></div>
+                <div class="in_nr2_c_c">
+                    <div class="fl fl0">
+
+                        <!-- 左1-->
+                        <!-- 有图css-->
+                                                <div class="in_nr2_l_t in_nr2_l_t0 fl0_1">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=80&amp;id=386" target="_blank">
+                                <img src="https://www.sigchina.com/uploadfile/2020/0812/20200812060523307.jpg" />
+                                <i>2020/08/12</i>
+                                <span>Implementing Rectification Requirements, Standardizing Labor Union Expenditure Audit: Labor Union of SIG Organizes Expenditure Audit Training</span>
+                                <em>According to the feedback of the inspection group of the CPC Shanghai Municipal Committee, the rectification requi...</em>
+                            </a>
+                        </div>
+                                                <!-- 无图css wroo-->
+                        
+                        <!-- 左2-->
+                        <!-- 有图css-->
+                                                <div class="in_nr2_l_t in_nr2_l_t0 fl0_2">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=80&amp;id=387" target="_blank">
+                                <img src="https://www.sigchina.com/uploadfile/2020/0812/20200812060750931.jpg" />
+                                <i>2020/08/12</i>
+                                <span>Good News! Under-developed Village Supported by SSAM Gets Rid of Poverty</span>
+                                <em>On May 16, the People& 39;s Government of Yunnan Province issued a notice officially approving Qiubei County, whic...</em>
+                            </a>
+                        </div>
+                                                <!-- 无图css-->
+                        
+
+                        <!-- 左3-->
+                        <!-- 有图css-->
+                                                <div class="in_nr2_c in_nr2_c0 fl0_3">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=80&amp;id=385" target="_blank">
+                                <img src="https://www.sigchina.com/uploadfile/2020/0812/20200812055723204.jpeg" />
+                                <i>2020/08/12</i>
+                                <span>SFIA Established</span>
+                                <em>Now Fintech has become an important driver for the high-quality development of finance and injected strong vitalit...</em>
+                            </a>
+                        </div>
+                                                <!-- 无图css-->
+                        
+                    </div>
+                    <div class="fc fc0">
+                        <!-- 中1-->
+                        <!-- 有图css-->
+                                                <div class="in_nr2_c in_nr2_c0 fc0_1">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=80&amp;id=267" target="_blank">
+                                <img src="https://www.sigchina.com/uploadfile/2019/0828/20190828053847983.jpg" />
+                                <i>2019/07/16</i>
+                                <span>Exert Advantage of State-owned Assets Platform to Enhance State-owned Capital! Li Qiang Visits SIG</span>
+                                <em>Source: Shanghai Release (excerpt)</em>
+                            </a>
+                        </div>
+                                                <!-- 无图css-->
+                                                <!-- 中2-->
+                        <!-- 有图css-->
+                                                <div class="in_nr2_l_t in_nr2_l_t0 fc0_2">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=80&amp;id=368" target="_blank">
+                                <img src="https://www.sigchina.com/uploadfile/2020/0527/20200527072837644.jpg" />
+                                <i>2020/05/22</i>
+                                <span>Holding Equal Consultation, Sharing Mutual Support-SIG Holds 2020 Collective Consultation Meeting</span>
+                                <em>    </em>
+                            </a>
+                        </div>
+                                                <!-- 无图css-->
+                                            </div>
+                    <div class="fr fr0">
+                        <!-- 右1-->
+                        <!-- 有图css-->
+                                                <div class="in_nr2_c in_nr2_c0 fr0_1">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=80&amp;id=367" target="_blank">
+                                <img src="https://www.sigchina.com/uploadfile/2020/0527/20200527072629925.jpg" />
+                                <i>2020/05/22</i>
+                                <span>Enhance Safety Awareness, Deliver an Outstanding Project: SIG Holds Special Meeting on Safety and Quality of SIG Building Reconstruction Project</span>
+                                <em>   </em>
+                            </a>
+                        </div>
+                                                <!-- 无图css-->
+                        
+                        <!-- 右2-->
+                        <!-- 有图css-->
+                                                <div class="in_nr2_l_t in_nr2_l_t0 fr0_2">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=80&amp;id=366" target="_blank">
+                                <img src="https://www.sigchina.com/uploadfile/2020/0527/20200527072428500.jpg" />
+                                <i>2020/05/19</i>
+                                <span>Focus on Frontiers of Fintech, Discuss Establishment of Union: SFIU Holds Internal Seminar on Establishment Preparation</span>
+                                <em>To prepare for the establishment of the Shanghai Fintech Industry Union (SFIU) and accelerate the integrated devel...</em>
+                            </a>
+                        </div>
+                                                <!-- 无图css-->
+                        
+                        <!-- 右3-->
+                        <!-- 有图css-->
+                                                <div class="in_nr2_l_t in_nr2_l_t0 fr0_3">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=80&amp;id=364" target="_blank">
+                                <img src="https://www.sigchina.com/uploadfile/2020/0527/20200527071748155.jpg" />
+                                <i>2020/05/18</i>
+                                <span>SIG Holds Seminars to Solicit Opinions on Three-year Action Plan</span>
+                                <em>  </em>
+                            </a>
+                        </div>
+                                                
+                    </div>
+                </div>
+            </div>
+            <div class="in_nr2_c_01">
+                <div class="in_nr2_c_t"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=81">More ></a></div>
+                <div class="in_nr2_c_c">
+                    <div class="fl fl0">
+
+                        <!-- 左1-->
+                        <!-- 有图css-->
+                                                <!-- 无图css-->
+                                                <div class="in_nr2_l_c in_nr2_l_c0 fl0_1">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=81&amp;id=" target="_blank">
+                                <i>1970/01/01</i>
+                                <span></span>
+                                <em></em>
+                            </a>
+                        </div>
+                        
+                        <!-- 左2-->
+                        <!-- 有图css-->
+                                                <!-- 无图css-->
+                                                <div class="in_nr2_l_c in_nr2_l_c0 fl0_1">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=81&amp;id=" target="_blank">
+                                <i>1970/01/01</i>
+                                <span></span>
+                                <em></em>
+                            </a>
+                        </div>
+                        
+                        <!-- 左3-->
+                        <!-- 有图css-->
+                                                <!-- 无图css-->
+                                                <div class="in_nr2_l_c in_nr2_l_c0 fl0_3">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=81&amp;id=" target="_blank">
+                                <i>1970/01/01</i>
+                                <span></span>
+                                <em></em>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="fc fc0">
+                        <!-- 中1-->
+                        <!-- 有图css-->
+                                                <!-- 无图css-->
+                                                <div class="in_nr2_l_c in_nr2_l_c0 fc0_1">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=81&amp;id=">
+                                <i>1970/01/01</i>
+                                <span></span>
+                                <em></em>
+                            </a>
+                        </div>
+                                                <!-- 中2-->
+                        <!-- 有图css-->
+                                                <!-- 无图css-->
+                                                <div class="in_nr2_l_c in_nr2_l_c0 fc0_2">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=81&amp;id=">
+                                <i>1970/01/01</i>
+                                <span></span>
+                                <em></em>
+                            </a>
+                        </div>
+                                            </div>
+                    <div class="fr fr0">
+                        <!-- 右1-->
+                        <!-- 有图css-->
+                                                <!-- 无图css-->
+                                                <div class="in_nr2_l_c in_nr2_l_c0 fr0_1">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=81&amp;id=" target="_blank">
+                                <i>1970/01/01</i>
+                                <span></span>
+                                <em></em>
+                            </a>
+                        </div>
+                        
+
+                        <!-- 右2-->
+                        <!-- 有图css-->
+                                                <!-- 无图css-->
+                                                <div class="in_nr2_l_c in_nr2_l_c0 fr0_2">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=81&amp;id=" target="_blank">
+                                <i>1970/01/01</i>
+                                <span></span>
+                                <em></em>
+                            </a>
+                        </div>
+                        
+                        <!-- 右3-->
+                        <!-- 有图css-->
+                                                                        <div class="in_nr2_l_c in_nr2_l_c0 fr0_3">
+                            <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=81&amp;id=" target="_blank">
+                                <i>1970/01/01</i>
+                                <span></span>
+                                <em></em>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row in_nr3">
+
+        <div class="wrap_c">
+            <ul>
+                                                                                                                                <li class="lia1">
+                    <div class="in_nr3_l"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=72" target="_blank">
+                        <img style="width: 357px;height: 268px;" src="uploadfile/2016/0726/20160726025638880.jpg" />
+                        <b></b><i></i><em></em></a></div>
+                    <div class="in_nr3_r" target="_blank">
+                        <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=72">
+                            <i>Banking and Trust<b></b></i>
+                            <span>
+                                                                                            Shanghai Pudong Development Bank<br />
+                                                                Shanghai Rural Commercial Bank<br />
+                                                                Shanghai International Trust<br />
+                                                                Tullett Prebon SITICO<br />
+                                                                                            </span>
+                        </a>
+                    </div>
+                </li>
+                                                                                <li class="lia2">
+                    <div class="in_nr3_l"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=73" target="_blank">
+                        <img style="width: 357px;height: 268px;" src="https://www.sigchina.com/uploadfile/2017/0518/20170518115231375.jpg" />
+                        <b></b><i></i><em></em></a></div>
+                    <div class="in_nr3_r" target="_blank">
+                        <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=73">
+                            <i>Securities and Fund<b></b></i>
+                            <span>
+                                                                                            Guotai Junan Securities<br />
+                                                                Shanghai Securities<br />
+                                                                HuaAn Fund Management<br />
+                                                                China International Fund Management<br />
+                                                                                            </span>
+                        </a>
+                    </div>
+                </li>
+                                                                                <li class="lia3">
+                    <div class="in_nr3_l"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=74" target="_blank">
+                        <img style="width: 357px;height: 268px;" src="https://www.sigchina.com/uploadfile/2017/0522/20170522120149458.png" />
+                        <b></b><i></i><em></em></a></div>
+                    <div class="in_nr3_r" target="_blank">
+                        <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=74">
+                            <i>Asset Management<b></b></i>
+                            <span>
+                                                                                            Shanghai SOAs Operation Co., Ltd.<br />
+                                                                SIG Asset Management Co., Ltd.<br />
+                                                                SITICO Assets Management Co., Ltd.<br />
+                                                                Shanghai Xieyi Asset Management Co., Ltd.<br />
+                                                                 Sailing Capital<br />
+                                                                GP Capital<br />
+                                                                Guohe Capital<br />
+                                                                                            </span>
+                        </a>
+                    </div>
+                </li>
+                                                                                <li class="lia4">
+                    <div class="in_nr3_l"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=75" target="_blank">
+                        <img style="width: 357px;height: 268px;" src="https://www.sigchina.com/uploadfile/2017/0522/20170522115704644.png" />
+                        <b></b><i></i><em></em></a></div>
+                    <div class="in_nr3_r" target="_blank">
+                        <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=75">
+                            <i>Overseas Investment<b></b></i>
+                            <span>
+                                                                                            SIG (Hong Kong) Co., Ltd.<br />
+                                                                                            </span>
+                        </a>
+                    </div>
+                </li>
+                                                                                <li class="lia5">
+                    <div class="in_nr3_l"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=76" target="_blank">
+                        <img style="width: 357px;height: 268px;" src="https://www.sigchina.com/uploadfile/2017/0518/20170518115330231.jpg" />
+                        <b></b><i></i><em></em></a></div>
+                    <div class="in_nr3_r" target="_blank">
+                        <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=76">
+                            <i>Other Equity Investment<b></b></i>
+                            <span>
+                                                                                            Hotel Kunlun<br />
+                                                                Shanghai International Port Group<br />
+                                                                                            </span>
+                        </a>
+                    </div>
+                </li>
+                                                
+                                                <li class="lia6">
+                    <div class="in_nr3_l"><a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=78">
+                        <img style="width: 357px;height: 268px;" src="https://www.sigchina.com/uploadfile/2017/0518/20170518115419237.jpg" />
+                        <b></b><i></i><em></em></a></div>
+                    <div class="in_nr3_r" target="_blank">
+                        <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=78">
+                            <i>Financial Factor Market<b></b></i>
+                            <span>
+                                                                                                                                        Shanghai Equity Exchange<br />
+                                                                                                                                                Shanghai Insurance Exchange<br />
+                                                                                                                                                Shanghai Commercial Paper Exchange<br />
+                                                                                                                                                                                                    </span>
+                        </a>
+                    </div>
+                </li>
+                                
+            </ul>
+        </div>
+    </div>
+
+
+            <div class="row in_nr4">
+        <div class="wrap_c in_nr4_c" style="background:url('https://www.sigchina.com/uploadfile/2016/0729/20160729122209769.jpg') no-repeat 70% / cover;">
+            <div class="fl">
+                <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=56">
+                    <i>About SIG<b></b></i>
+                    <span><p><span style="font-family:微软雅黑;"><span style="font-size:9px;">SHANGHAI INTERNATIONAL GROUP WAS INCORPORATED ON APRIL 20TH, 2000, WITH A REGISTERED CAPITAL OF RMB 10.56 BILLION. SOLELY OWNED BY SHANGHAI MUNICIPAL GOVERNMENT WITH A-CLASS STATE-OWNED ASSETS MANAGEMENT AUTHORIZATION, SIG PERFORMS THE ROLE AS INVESTOR OF STATE-OWNED ASSETS, OPTIMIZING ITS FLOW, CONTROL, ALLOCATION AND BUDGET BALANCE, WHILE AIMING TO FULLY IMPROVE ITS STATE-OWNED ASSETS MANAGEMENT CAPABILITY AND PROACTIVELY EXPLORE ITS DEVELOPMENT STRATEGY AS A STATE-OWNED CAPITAL OPERATION PLATFORM.</span></span></p>
+</span>
+                    <em>More ></em>
+                </a>
+            </div>
+        </div>
+    </div>
+        
+    <!--end内容-->
+
+    <!--底部-->
+    <!--底部-->
+<div class="row btnfr"  >
+    <div class="wrap_c">
+        <div class="fr bdsharebuttonbox">
+            <span>Share this page：</span>
+            <a href="javascript:void(0);" class="分享到微信"><img data-cmd="weixin" src="https://www.sigchina.com/statics/web/images/btn_01.png" _src="/statics/web/images/btn_01.png" _bsrc="/statics/web/images/btn_01_on.png" /></a>
+            <a href="javascript:void(0);" title="分享到新浪微博"><img data-cmd="tsina" src="https://www.sigchina.com/statics/web/images/btn_02.png" _src="/statics/web/images/btn_02.png" _bsrc="/statics/web/images/btn_02_on.png" /></a>
+            <a href="javascript:void(0);" title="分享到QQ空间"><img data-cmd="qzone" src="https://www.sigchina.com/statics/web/images/btn_03.png" _src="/statics/web/images/btn_03.png" _bsrc="/statics/web/images/btn_03_on.png" /></a>
+        </div>
+        <div class="fl">
+            <p class="p1">
+                                                                                                <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=91" >CONTACT US</a>  <i>|</i>                                                <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=96" >SITE NAVIGATION</a>  <i>|</i>                                                <a href="https://www.sigchina.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=97" >LEGAL NOTICES</a>                                              </p>            <p class="p2">COPYRIGHT 2005 SHANGHAI INTERNATIONAL GROUP CO..LTD  <a target="_blank" href="http://www.beian.miit.gov.cn" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">沪ICP备05020216号-1</a>  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010602003330" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"> 沪公网安备31010602003330号</a></p>
+        </div>
+    </div>
+</div>
+<div class="fx_wx"><img src="https://www.sigchina.com/statics/web/images/btn_04.png" /><img src="https://www.sigchina.com/statics/web/upimg/er.jpg" class="img1" /></div>
+<!--end底部-->    <!--end底部-->
+</div>
+
+</body>
+</html>
+

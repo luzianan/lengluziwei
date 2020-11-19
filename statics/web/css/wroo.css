@@ -1,0 +1,36 @@
+.pages span {
+	display: inline-block;
+	line-height: 4rem;
+	padding: 0px 2rem;
+	font-size: 1.4rem;
+	border: 1px solid #dcdcdc;
+	margin: 0px 0.4rem;
+	color: #ed6d00;
+	font-weight: bold;
+}
+#hits{
+	margin: 0px;
+}
+.com_nr1{
+	min-height: 800px;
+}
+
+.ncont_c{
+	color: #000;
+}
+
+/*董事长致辞 */
+.about_dsz_l p{
+	color: #000;
+}
+
+.about_dsz_r p{
+	color: #000;
+}
+
+.in_nr2_l_t a i {
+	display: none;
+}
+.in_nr2_c a i {
+	display: none;
+}
